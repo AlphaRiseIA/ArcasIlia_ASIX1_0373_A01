@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Actividad: Introducción a los ERP</title>
+  <link rel="stylesheet" href="style/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Actividad: Introducción a los ERP</h1>
+    <nav>
+      <a href="#introduccion">Introducción</a>
+      <a href="#teorica">Actividad teórica</a>
+      <a href="#comparativa">Comparativa</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="introduccion">
+      <h2>Introducción</h2>
+      <p>Un <strong>ERP</strong> (Enterprise Resource Planning, o Planificación de Recursos Empresariales) es un sistema de información integrado que unifica y automatiza los procesos y datos de una organización en una única plataforma. Su origen se remonta a los sistemas MRP de los años 60–70 y ha evolucionado hasta ofrecer gestión en tiempo real de finanzas, compras, ventas, producción, recursos humanos y más. Centraliza la información, elimina silos de datos y facilita la toma de decisiones.</p>
+    </section>
+
+    <section id="teorica">
+      <h2>1. Actividad teórica</h2>
+      <ol>
+        <li>
+          <strong>¿Qué es un ERP?</strong><br>
+          Un ERP es una aplicación modular y centralizada que permite gestionar las principales actividades de una empresa (finanzas, compras, ventas, producción, recursos humanos…) compartiendo una base de datos común.
+        </li>
+        <li>
+          <strong>¿Para qué sirve?</strong><br>
+          <ul>
+            <li>Integrar procesos entre diferentes departamentos.</li>
+            <li>Estandarizar procedimientos y buenas prácticas.</li>
+            <li>Mejorar la visibilidad de la información en tiempo real.</li>
+            <li>Facilitar la toma de decisiones mediante informes y KPIs.</li>
+            <li>Reducir costes al minimizar errores y duplicidades.</li>
+          </ul>
+        </li>
+        <li>
+          <strong>¿Qué funciones realizan?</strong><br>
+          <ul>
+            <li>Finanzas y Contabilidad: libro mayor, cuentas a cobrar/pagar, análisis de costes.</li>
+            <li>Gestión de Inventarios: stock, ubicaciones, movimientos, trazabilidad.</li>
+            <li>Compras y Proveedores: solicitudes de oferta, pedidos de compra, recepción de mercancías.</li>
+            <li>Ventas y Clientes (CRM): gestión de clientes, presupuestos, pedidos de venta, facturación.</li>
+            <li>Producción (MRP/MES): planificación de la producción, órdenes de trabajo, control de planta.</li>
+            <li>Recursos Humanos: nóminas, contratos, formación, evaluaciones.</li>
+          </ul>
+        </li>
+        <li>
+          <strong>¿Qué tipos de módulos hay? ¿Cómo clasificarlos? ¿Puedo instalar cualquier módulo?</strong><br>
+          <ul>
+            <li><strong>Tipos:</strong> Core (finanzas, contabilidad, base de datos), Operativos (compras, ventas, producción, almacén), Soporte (RR. HH., mantenimiento, auditoría), Extendidos (e-commerce, BI, BPM).</li>
+            <li><strong>Clasificación:</strong> obligatorios vs. complementarios; nativos vs. de terceros.</li>
+            <li>No siempre puedes instalar cualquier módulo: debe existir para tu versión del ERP, puede requerir licencias adicionales y/o adaptaciones.</li>
+          </ul>
+        </li>
+        <li>
+          <strong>¿Qué es la integración de módulos y por qué es beneficiosa?</strong><br>
+          La integración de módulos implica que todos los componentes del ERP comparten la misma base de datos y procesos, lo que permite:
+          <ul>
+            <li>Coherencia de datos: los cambios en un módulo se reflejan automáticamente en los demás.</li>
+            <li>Visión 360º de la empresa.</li>
+            <li>Automatización de flujos: pedidos, inventarios y finanzas conectados.</li>
+            <li>Reducción de redundancias y errores.</li>
+            <li>Escalabilidad y facilidad de mantenimiento.</li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+
+    <section id="comparativa">
+      <h2>2. Estudio comparativo de ERPs</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Producto</th>
+            <th>Características y funcionalidades</th>
+            <th>Requisitos (HW/SW)</th>
+            <th>Orientación al mercado</th>
+            <th>Licencias y precios</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>SAP S/4HANA Cloud</td>
+            <td>Finance, SCM, SRM, CRM, PP, HR, BI; base de datos in-memory HANA</td>
+            <td>Cloud (AWS/Azure/Google); mínimo 16 vCPU y 64 GB RAM; navegador web</td>
+            <td>Grandes corporaciones y multinacionales</td>
+            <td>Desde 112 €/usuario/mes (básico), varía según módulos e industria</td>
+          </tr>
+          <tr>
+            <td>Microsoft Dynamics 365 BC</td>
+            <td>Finanzas, cadena de suministro, ventas, compras, proyectos; integración con Office 365 y Power BI</td>
+            <td>Cloud Azure; On-premises: Windows Server 2019+, SQL Server 2019+, 4 cores CPU, 16 GB RAM; cliente Web o Windows</td>
+            <td>Pymes y medianas empresas</td>
+            <td>≈ 70 €/usuario/mes (Essentials); 94 €/usuario/mes (Premium)</td>
+          </tr>
+          <tr>
+            <td>Odoo (Community/Enterprise)</td>
+            <td>+30 módulos core: CRM, inventario, e-commerce, contabilidad, fabricación; interfaz personalizable; open source (Community)</td>
+            <td>Servidor Linux (Ubuntu/Debian); PostgreSQL 12+; 2 cores CPU, 4–8 GB RAM; navegador web</td>
+            <td>Autónomos, pymes y escalable</td>
+            <td>Community: gratis; Enterprise: ≈ 28 €/usuario/mes + hosting/implementación</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+
+  </main>
+
+  <footer>
+  </footer>
+</body>
+</html>
